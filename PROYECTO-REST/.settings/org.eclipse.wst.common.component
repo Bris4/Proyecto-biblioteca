@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="PROYECTO-REST">
+        <wb-resource deploy-path="/" source-path="/Web-Content" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="BIBLIOTECA-EJB.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/BIBLIOTECA-EJB/BIBLIOTECA-EJB">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="PROYECTO-REST"/>
+        <property name="java-output-path" value="/PROYECTO-REST/build/classes"/>
+    </wb-module>
+</project-modules>
